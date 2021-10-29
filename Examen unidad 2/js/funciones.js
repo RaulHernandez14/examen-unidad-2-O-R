@@ -201,7 +201,7 @@ $(document).ready(function () {
      for (let x = 0; x < registros.length; x++) {
         if (registros[x].estatus == "Confirmada") {
           alert("RESERVACIÓN CONFIRMADA NO: " + (x+1)+"\n Mesa: "+registros[x].mesa+"\n Nombre: "+registros[x].nombre+
-          "\n Estatus: "+registros[x].status+
+          "\n Estatus: "+registros[x].estatus+
           "\n Fecha de registro: "+registros[x].fecha);
         }
       }
